@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import Facebook from "../assets/facebook.svg"
+import Instagram from "../assets/instagram.svg"
+import Linkedin from "../assets/linkedin.svg"
 
 export function Footer() {
   return (
@@ -9,13 +12,13 @@ export function Footer() {
       </div>
       <div>
         <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
-          <img src="../src/assets/facebook.svg" alt="facebook icon" />
+          <img src={Facebook} alt="facebook icon" />
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <img src="../src/assets/instagram.svg" alt="instagram icon" />
+          <img src={Instagram} alt="instagram icon" />
         </a>
         <a href="https://www.linkedin.com/in/marcioandreschreiber/" target="_blank" rel="noopener noreferrer">
-          <img src="../src/assets/linkedin.svg" alt="linkedin icon" />
+          <img src={Linkedin} alt="linkedin icon" />
         </a>
       </div>
     </FooterStyle>
