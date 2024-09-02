@@ -11,8 +11,7 @@ export const Section = styled.section<SectionProps>`
   max-height: 720px;
   display: flex;
   overflow-y: scroll;
-  flex-direction: ${(props) =>
-    props.flexDirection === "row" ? "row" : "row-reverse"};
+  flex-direction: ${(props) => (props.flexDirection === "row" ? "row" : "row-reverse")};
 
   div {
     width: 50%;

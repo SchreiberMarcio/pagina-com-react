@@ -6,7 +6,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
   },
-  
 ]);
 
 export function AppRoutes() {

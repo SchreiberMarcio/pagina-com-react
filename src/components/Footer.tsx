@@ -8,25 +8,13 @@ export function Footer() {
         <p>@ Schreiber Marcio 2024. All Rights Reserved</p>
       </div>
       <div>
-        <a
-          href="https://www.facebook.com/?locale=pt_BR"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
           <img src="../src/assets/facebook.svg" alt="facebook icon" />
         </a>
-        <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <img src="../src/assets/instagram.svg" alt="instagram icon" />
         </a>
-        <a
-          href="https://www.linkedin.com/in/marcioandreschreiber/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.linkedin.com/in/marcioandreschreiber/" target="_blank" rel="noopener noreferrer">
           <img src="../src/assets/linkedin.svg" alt="linkedin icon" />
         </a>
       </div>
